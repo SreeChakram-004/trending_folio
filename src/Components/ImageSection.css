@@ -1,0 +1,95 @@
+.banner-text p {
+    font-size: 20px;
+    font-weight: bold;
+    /* padding: 1em; */
+}
+
+.cv-btn{
+    /* padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 15rem; */
+
+    background-image: linear-gradient(to right, #c61e59, #d60770, #e2008c, #ea00ac, #eb12cf);
+    color:white;
+    display: inline-block;
+    padding:15px;
+    margin: center;
+    text-align: center;
+    border-radius:4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing:1px;
+    
+   
+    
+    
+}
+
+.cv-btn a{
+/* border-radius:4px;
+    color:#0450E7;
+    border:1px solid #0450E7;
+    padding:12px 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all .5s ease;
+    background-color: transparent; */
+}
+.cv-btn:hover{
+   background-image: linear-gradient(to right, #1b12e3, #0079ff, #00a3f3, #00c38c, #5ed81c);
+   border: 1px solid palevioletred;
+   color:white;
+   -ms-transform: scale(1.1); 
+   -webkit-transform: scale(1.1); 
+    transform: scale(1.1);
+
+
+
+
+    /* color: #000000;
+      */
+      
+}
+
+.skills{
+    color: rgb(255,20,147);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1rem;
+}
+
+.left-content img:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+
+}
+
+.right-content .paragraph:hover{
+    background: linear-gradient(to right, #1b12e3, #0079ff, #00a3f3, #00c38c, #5ed81c);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.right-content .paragraph{
+    background-image: linear-gradient(to right top, #eb13bc, #d800c4, #c100cd, #a400d6, #8000df, #5e48f1, #3767fb, #007fff, #00aaff, #00c8f8, #00dda0, #18e918);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    word-spacing: 2px;
+    line-height:1.6;
+}
+
+.right-content .skills:hover{
+    background: linear-gradient(to right, #1b12e3, #0079ff, #00a3f3, #00c38c, #5ed81c);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.right-content .skills{
+    background-image: linear-gradient(to right top, #e2eb13, #ffba00, #ff842e, #ff475d, #ff008a, #ff0081, #ff0078, #ff006f, #ff4f2b, #f28f00, #b4c300, #0aec0a);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    word-spacing:8px;
+}

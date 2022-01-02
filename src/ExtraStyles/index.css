@@ -1,0 +1,57 @@
+.form-button{
+    background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/*About*/
+.left-content .imge{
+  display:flex;
+  justify-content:center;
+}
+
+/*projects*/ 
+.proj{
+  margin:0px 15px;
+}
+
+
+/*contact*/ 
+input,textarea{
+  background-color:transparent;
+  color: grey;
+  height:50px;
+  border: none;
+  border-radius: 3px;
+  border: 1px solid grey;
+  padding:15px;
+  width:100%;
+
+}
+
+.form{
+  margin:0px 20px;
+  margin-top:1.5rem;
+}
+
+
+.right-content{
+  margin:0px 20px;
+}
+
+.h4{
+  font-size:2rem;
+  color:grey;
+  font-weight:bold;
+  margin-bottom:4px;
+}
+textarea{
+  height:120px;
+  color:grey;
+}
